@@ -12,7 +12,7 @@
 }
 
 .container {
-    opacity: 80%;
+    opacity: 90%;
 }
 
 .nav {
@@ -69,6 +69,10 @@ align-items: center;
 
 }
 
+.maps {
+    width: 25rem;
+}
+
 
 .tacSiem {
     display: flex;
@@ -85,6 +89,20 @@ align-items: center;
     justify-content: space-evenly;
 }
 
+.derechos {
+    color: blue;
+}
+
+.locales {
+    color: blue;
+}
+
+.imgCarousel {
+    height: 350px;
+    object-fit: cover;
+    width: 15rem;
+}
+
 .parrafo {
     border: dotted 2px blue;
 }
@@ -98,8 +116,8 @@ h2 {
     color: blue;
 }
 
-.equipotrabajo {
-    width: 5rem;
+.equipoTrabajo {
+    width: 20rem;
 }
 
 .multimediaChica {
