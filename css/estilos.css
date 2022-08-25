@@ -7,8 +7,7 @@
 
 .header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;background-image: url(img/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);
+    align-items: center;   
 }
 
 .container {
@@ -139,6 +138,7 @@ form input {
     -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
 box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
 }
+
 
 @media (min-width:700px) and (max-width: 1100px) {
     .gridPadre {
