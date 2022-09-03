@@ -1,35 +1,46 @@
-h1 {
-  color: blue;
+
+.gridPadre {
+  background-color: bisque;
 }
 
+$color-principal: black;
 
-.header {
+header {
   display: flex;
   align-items: center;   
+  background-color: lightblue;
+
+  h1 {
+    color: $color-principal;
+    text-align: center;
+    margin-top: 2rem;
+  }
+nav {
+  display: flex;
+
+  li {
+    display: inline-block;
+    padding: 0 2rem;
+
+    ul { 
+      display: flex;
+      
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+}
 }
 
 .container {
   opacity: 90%;
 }
 
-.nav {
-  display: flex;
-}
-
-.nav li {
-padding: 0 2rem;
-}
-
-.barraPrincipal {
-  display: flex;
-  padding: 0 2rem;
-}
 section {
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
 box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
-
-
 
 .imagenesTomografos {
   width: 15rem;
@@ -44,11 +55,6 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15p
 }
 
 
-h1 {
-  text-align: center;
-  margin-top: 2rem;
-  color: blue;
-}
 
 .fotoPrincipal {
 display: flex;
@@ -63,7 +69,6 @@ align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: flex-start;
-
 }
 
 .contenedorCiudades {
@@ -80,6 +85,12 @@ align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: flex-start;
+}
+
+
+
+.colorHdos {
+  color: black;
 }
 
 .maps {
@@ -103,11 +114,11 @@ align-items: center;
 }
 
 .derechos {
-  color: blue;
+  color: black;
 }
 
 .locales {
-  color: blue;
+  color: black;
 }
 
 .imgCarousel {
@@ -122,12 +133,7 @@ align-items: center;
 
 body {
   font-size: 20px;
-  background-color: white;
-}
-
-h2 {
-  color: blue;
-}
+   }
 
 .equipoTrabajo {
   width: 20rem;
