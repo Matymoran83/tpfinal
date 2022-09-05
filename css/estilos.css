@@ -11,6 +11,14 @@
   background-color: Blue;
   font-size: 20px; }
 
+.ejemploUno, .ejemploDos {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center; }
+
+.ejemploDos {
+  font-size: 25px; }
+
 .gridPadre {
   background-color: bisque; }
 
