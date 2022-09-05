@@ -19,6 +19,15 @@
 .ejemploDos {
   font-size: 25px; }
 
+.textosEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: left; }
+
+.informacionPractica {
+  font-size: 50px;
+  text-align: left; }
+
 .gridPadre {
   background-color: bisque; }
 
