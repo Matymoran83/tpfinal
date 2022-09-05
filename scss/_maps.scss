@@ -1,8 +1,15 @@
 
 $mapRedes:(facebook:blue, instagram:bisque, twitter:yellow);
 
-@each $blue, $color in $mapRedes {
-    .#{$red} {
+@each $redSocial, $color in $mapRedes {
+    .#{$redSocial} {
         color: $color;
     }
+}
+
+$estilo: (color:Blue, tamFuente: 20px);
+
+.proyecto {
+    background-color: map-get($estilo, color );
+    font-size: map-get($estilo, tamFuente );
 }
