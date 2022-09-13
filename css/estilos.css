@@ -154,7 +154,7 @@ form input {
     grid-template-areas: "header header" "nav nav" "definition emotion" "sensation goup" "footer footer";
     font-size: 15px; } }
 
-@media (max-width: 699px) {
+@media (max-width: 576px) {
   .gridPadre {
     display: grid;
     grid-template-areas: "header" "nav" "definition" "emotion" "sensation" "goup" "footer";
